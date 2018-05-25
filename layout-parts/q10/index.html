@@ -37,7 +37,54 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-
+            <form class="q10-box">
+                <div class="q10-title-box">
+                    <p class="q10-title-txt">Form Exercise</p>
+                </div>
+                    <div class="clearfix">
+                        <div class="neme-submit">
+                            <ul class="list">
+                                <li class="clearfix">
+                                    <p class="q10-text">name<span class="required"> *</span></p>
+                                        <div class="item-box">
+                                            <input class="q10-input input-int" type="text" name="q10-1" required>
+                                        </div>
+                                </li>
+                                <li class="clearfix">
+                                    <p class="q10-text">Sex</p>
+                                        <div class="item-box">
+                                            <label class="pointer">
+                                                <input class="radio-btn" type="radio" name="q10-2" value="male">
+                                                    <span class="radio-text">male</span>
+                                            </label>
+                                            <label class="pointer">
+                                                <input class="radio-btn" type="radio" name="q10-2" value="female">
+                                                    <sapn class="radio-text">female</sapn>
+                                            </label>
+                                        </div>
+                                </li>
+                                <li class="clearfix">
+                                    <p class="q10-text">Email<span class="required"> *</span></p>
+                                        <div Class="item-box">
+                                            <input class="q10-input input-int" type="text" placeholder="ex) hoge@gmail.com" name="q10-3" required>
+                                        </div>
+                                </li>
+                                <li class="clearfix">
+                                    <p class="q10-text">Telephone</p>
+                                        <div class="item-box">
+                                            <input class="q10-input input-int" type="text" name="q10-4" placeholder="ex) 08012345678">
+                                        </div>
+                                </li>
+                            </ul>
+                            <div class="submit-box">
+                                <input class="submit-button input-int" type="submit" value="submit">
+                            </div>
+                        </div>
+                        <div class="message-box">
+                            <textarea class="message-text input-int" name="q10-5" placeholder="Please fill in the message..."></textarea>
+                        </div>
+                    </div>
+            </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>

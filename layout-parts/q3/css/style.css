@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.table {
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+}
 
-/* 回答はここに書いてね */
+.line > th {
+	color: white;
+	background-color: #2244aa;
+	border: solid #dededa 1px;
+	font-size: 18px;
+	line-height: 26px;
+	padding: 10px;
+}
+
+.line > td {
+	border: solid #dededa 1px;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 10px;
+}
+
+.line:nth-child(odd) {
+	background-color: #ecf1f2;
+}
+
+.line:last-child {
+	border-top: dashed #000 2px;
+}
+
+

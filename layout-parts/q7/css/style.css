@@ -1,5 +1,167 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q7 {
+	font-size: 0;
+	text-align: center;
+}
+
+.q7-box {
+	display: inline-block;
+	margin: 10px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.q7-init {
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	font-size: 16px;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.q7-text {
+	padding: 5px;
+	border: 1px solid #00bcd4;
+	border-radius: 5px;
+}
+
+.q7-text::-webkit-input-placeholder {
+	color: #00bcd4;
+}
+
+.q7-text:focus {
+	box-shadow: 0 0 7px #00bcd4;
+}
+
+.q7-textarea {
+	height: 40px;
+	padding: 5px;
+	border: 1px solid #00bcd4;
+	border-radius: 5px;
+	resize: none;
+}
+
+.q7-radio {
+	cursor: pointer;
+}
+
+.radio-button {
+	display: none;
+}
+
+.radio-text {
+	position: relative;
+	display: inline-block;
+	padding: 3px 3px 3px 20px;
+}
+
+.radio-text:before{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 14px;
+	height:14px;
+	margin-top: -8px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	content: '';
+}
+
+.radio-button:checked + .radio-text:after {
+	position: absolute;
+	top: 50%;
+	left :4px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	background-color: #00bcd4;
+	border-radius: 50%;
+	content: '';
+}
+
+.q7-check {
+	cursor: pointer;
+}
+
+.check-button {
+	display: none;
+}
+
+.check-text {
+	position: relative;
+	display: inline-block;
+	padding: 3px 3px 3px 22px;
+}
+
+.check-text:before {
+	position: absolute;
+	content: '';
+	top: 50%;
+	left: 0;
+	width: 14px;
+	height: 14px;
+	margin-top: -8px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+
+.check-button:checked + .check-text:after{
+	position: absolute;
+	content: '';
+	top: 5px;
+	left: 3px;
+	width: 13px;
+	height: 5px;
+	border-bottom: 2px solid #00bcd4;
+	border-left: 2px solid #00bcd4;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.q7-select {
+	position: relative;
+	background-color: #fff;
+}
+
+.q7-select:before {
+	position: absolute;
+	top:7px;
+	right: 9px;
+	width: 8px;
+	height: 8px;
+	border-bottom: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	content: '';
+}
+
+.select-item {
+	position: relative;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 5px 30px 5px 5px;
+	font-size: 14px;
+}
+
+.q7-button {
+	padding: 5px 10px;
+	border: 1px solid #00bcd4;
+	border-radius: 5px;
+	color: #00bcd4;
+	cursor: pointer;
+}
+
+.q7-button:active {
+	background-color: #00bcd4;
+	color: #fff;
+}
 
 /* 回答はここに書いてね */

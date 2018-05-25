@@ -1,5 +1,162 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q10-box {
+	background-color: #ecf1f2;
+	margin: 0 auto;
+	width: 700px;
+	padding: 20px;
+}
+
+.q10-title-box {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.q10-title-box::before {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #ccc;
+	content: "";
+}
+
+.q10-title-txt {
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	padding-right: 10px;
+	background-color: #ecf1f2;
+}
+
+.neme-submit {
+	float: left;
+	width: 300px;
+}
+
+.list {
+	margin-bottom: 20px;
+}
+
+.list > li:not(:first-child) {
+	margin-top: 20px;
+}
+
+.q10-text {
+	float: left;
+	width: 100px;
+	line-height: 25px;
+	text-align: right;
+}
+
+.required {
+	color: red;
+}
+
+.item-box {
+	float: right;
+	width: 180px;
+}
+
+.input-int {
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: none;
+	font-size: 16px;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.q10-input {
+	width: 100%;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+	box-sizing: border-box;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.radio-btn {
+	display: none;
+}
+
+.radio-text {
+	position: relative;
+	display: inline-block;
+	padding: 3px 3px 3px 20px;
+}
+
+.radio-text:before {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 14px;
+	height: 14px;
+	margin-top: -8px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	content: "";
+}
+
+.radio-btn:checked + .radio-text:after {
+	position: absolute;
+	top: 50%;
+	left: 4px;
+	width: 8px;
+	height: 8px;
+	margin-top: -4px;
+	background-color: #00bcd4;
+	border-radius: 50%;
+	content: "";
+}
+
+.submit-box {
+	text-align: right;
+}
+
+.submit-button {
+	padding: 0 10px;
+	border-radius: 5px;
+	background-color: #00bcd4;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.message-box {
+	float: right;
+	width: 380px;
+}
+
+.message-text {
+	width: 100%;
+	height: 203px;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #fff;
+	font-size: 12px;
+	box-sizing: border-box;
+	resize: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+	display: block;
+	content: '';
+	clear: both;
+}
 
 /* 回答はここに書いてね */
