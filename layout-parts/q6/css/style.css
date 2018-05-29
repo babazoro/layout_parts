@@ -3,21 +3,20 @@
 /* 回答はここに書いてね */
 .common_button {
 	background-color: #00bcd4;
+}
+
+.white-text {
 	display: inline-block;
-	color: white;
+	color: #fff;
 }
 
 .error_button {
 	background-color: #ff4081;
-	display: inline-block;
-	color: white;
 	margin-left: 10px;
 }
 
 .disabled_button {
 	background-color:#e5e5e5;
-	display: inline-block;
-	color: white;
 	margin-left: 10px;
 }
 
